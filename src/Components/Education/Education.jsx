@@ -26,6 +26,11 @@ export default function Education() {
                 <p class="font-normal text-gray-700 dark:text-gray-400">Currently I am pursuing my master's degree in MCA from Sage University.</p>
             </a>
 
+
+
+
+
+<h1>ksjdfhouihwrwt'oihwe</h1>
         </div>
     )
 }
