@@ -1,23 +1,94 @@
-import React from "react";
+import React from 'react';
+import C_logo from '../../assets/img/C_logo.jpg'
+import oops_logo from '../../assets/img/oops_logo.jpg'
+import Csharp from '../../assets/img/Csharp.jpg'
+import html5 from '../../assets/img/html5.jpg'
+import CSS from '../../assets/img/CSS.jpg'
+import javascript_logo from '../../assets/img/javascript_logo.jpg'
+import react from '../../assets/img/react.jpg';
+import dotnet from '../../assets/img/dotnet.jpg'
+import Bootstrap from '../../assets/img/Bootstrap.jpg'
+import Tailwind from '../../assets/img/Tailwind.jpg'
+
+const skills = [
+    {
+        name: 'C',
+        img: {C_logo}, // path to your HTML logo image
+        description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard.'
+    },
+    {
+        name: 'C++',
+        logo: {oops_logo}, // path to your CSS logo image
+        description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard.'
+    },
+    {
+        name: 'C#',
+        logo: {Csharp}, // path to your JavaScript logo image
+        description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard.'
+    },
+    {
+        name: 'HTML 5',
+        logo: {html5}, // path to your Python logo image
+        description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard.'
+    },
+    {
+        name: 'CSS',
+        logo: {CSS}, // path to your Sass logo image
+        description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard.'
+    },
+    {
+        name: 'Javascript',
+        logo: {javascript_logo}, // path to your MySQL logo image
+        description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard.'
+    },
+    {
+        name: 'React',
+        logo: {react}, // path to your MySQL logo image
+        description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard.'
+    },
+    {
+        name: 'dotnet',
+        logo: {dotnet}, // path to your MySQL logo image
+        description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard.'
+    },
+    {
+        name: 'Bootstrap',
+        logo: {Bootstrap}, // path to your MySQL logo image
+        description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard.'
+    },
+    {
+        name: 'Tailwind',
+        logo: {Tailwind}, // path to your MySQL logo image
+        description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard.'
+    },
+];
 
 export default function Skills() {
+
     return (
+
         <>
-            <div className="mt-10 flex flex-cols h-screen flex-wrap items-center justify-around mx-auto p-5 text-gray-900 dark:text-white relative min-h-screen bg-gradient-to-r from-blue-50 to-blue-100">
-                <h3 className="flex flex-cols text-4xl leading-none tracking-tight text-gray-800 md:text-4xl lg:text-5xl dark:text-white">Technical Skills</h3>
-                <div className="grid items-center">
-                    <span className="flex items-center text-sm font-medium text-gray-900 dark:text-white me-3">C</span>
-                    <span className="flex items-center text-sm font-medium text-gray-900 dark:text-white me-3">C++</span>
-                    <span className="flex items-center text-sm font-medium text-gray-900 dark:text-white me-3">C#</span>
-                    <span className="flex items-center text-sm font-medium text-gray-900 dark:text-white me-3">html</span>
-                    <span className="flex items-center text-sm font-medium text-gray-900 dark:text-white me-3">Css</span>
-                    <span className="flex items-center text-sm font-medium text-gray-900 dark:text-white me-3">Js</span>
-                    <span className="flex items-center text-sm font-medium text-gray-900 dark:text-white me-3">.net</span>
-                    <span className="flex items-center text-sm font-medium text-gray-900 dark:text-white me-3">React</span>
-                    <span className="flex items-center text-sm font-medium text-gray-900 dark:text-white me-3">Bootstrap</span>
-                    <span className="flex items-center text-sm font-medium text-gray-900 dark:text-white me-3">Tailwind</span>
+
+            <div id='Skills' className="flex flex-cols flex-wrap items-center justify-around mx-auto p-5 text-gray-900 dark:text-white">
+                <h3 className="text-4xl leading-none tracking-tight text-gray-800 md:text-4xl lg:text-5xl dark:text-white mb-15">Skills</h3>
+
+                <div className="text-white p-6">
+                    <h2 className="text-3xl font-bold text-center mb-4">My Skills</h2>
+                    <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+                        {skills.map(skill => (
+                            <div key={skill.name} className="text-center rounded-lg bg-gray-700 p-4">
+                                <img src={skill.logo} alt={skill.name} className="w-16 h-16 mb-2 mx-auto" />
+                                <h3 className="text-xl font-semibold">{skill.name}</h3>
+                                <p className="mt-2">{skill.description}</p>
+                            </div>
+                        ))}
+                    </div>
                 </div>
             </div>
+
+
+
         </>
+
     )
 }
