@@ -23,7 +23,7 @@ export default function Contact() {
                   </div>
                   <div className="ml-4">
                     <p className="text-gray-600">Email</p>
-                    <a href="mailto:contact@example.com" className="text-blue-600 hover:text-blue-700">contact@example.com</a>
+                    <a href="#" className="text-blue-600 hover:text-blue-700">yaghya@gmail.com</a>
                   </div>
                 </div>
 
@@ -32,6 +32,10 @@ export default function Contact() {
                     <svg className="w-6 h-6 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"></path>
                     </svg>
+                  </div>
+                  <div className="ml-4">
+                    <p className="text-gray-600">Mobile no.</p>
+                    <p className="text-blue-600">1234567898</p>
                   </div>
                 </div>
 
@@ -44,7 +48,7 @@ export default function Contact() {
                   </div>
                   <div className="ml-4">
                     <p className="text-gray-600">Location</p>
-                    <p className="text-blue-600">San Francisco, CA</p>
+                    <p className="text-blue-600">India</p>
                   </div>
                 </div>
               </div>
