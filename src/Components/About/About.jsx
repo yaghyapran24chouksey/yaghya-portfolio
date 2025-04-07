@@ -3,7 +3,7 @@ import React from "react";
 export default function About() {
   return (
     <>
-      <div id="About" className="mt-15 flex flex-cols flex-wrap items-center justify-around mx-auto p-25 text-gray-900 dark:text-white">
+      <div id="About" className="mt-25 flex flex-cols flex-wrap items-center justify-around mx-auto p-25 text-gray-900 dark:text-white pb-0">
         <h1 className=" text-4xl leading-none tracking-tight text-gray-800 md:text-4xl lg:text-5xl dark:text-white ">
           About Me
         </h1>
