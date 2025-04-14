@@ -1,5 +1,4 @@
 import React from 'react'
-import image_of_menu_card from '../../assets/img/image_of_menu_card.jpg'
 
 export default function Projects() {
     return (
