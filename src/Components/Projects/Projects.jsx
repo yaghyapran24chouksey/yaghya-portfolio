@@ -9,10 +9,10 @@ export default function Projects() {
                 <div className='flex gap-5 flex-wrap justify-center p-15'>
                     <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow-sm dark:bg-gray-800 dark:border-gray-700">
                         {/* <a href="#">
-                            <img className="rounded-t-lg" src={image_of_menu_card} alt="" />
+                            <img className="rounded-t-lg item-center" src="" alt="" />
                         </a> */}
                         <div className="p-5">
-                            <a href="#">
+                            <a>
                                 <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Digital Restaurant Menu Card</h5>
                             </a>
                             <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">Designed a digital menu card for restaurants were the customer can order the food by placing the order digitally, by using C language.</p>
@@ -26,9 +26,9 @@ export default function Projects() {
                     </div>
 
                     <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow-sm dark:bg-gray-800 dark:border-gray-700">
-                        <a>
+                        {/* <a>
                             <img className="rounded-t-lg" src="#" alt="" />
-                        </a>
+                        </a> */}
                         <div className="p-5">
                             <a>
                                 <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Deposit or withdraw funds</h5>
@@ -44,11 +44,11 @@ export default function Projects() {
                     </div>
 
                     <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow-sm dark:bg-gray-800 dark:border-gray-700">
-                        <a href="#">
+                        {/* <a href="#">
                             <img className="rounded-t-lg" src="#" alt="" />
-                        </a>
+                        </a> */}
                         <div className="p-5">
-                            <a href="#">
+                            <a>
                                 <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Billing machine</h5>
                             </a>
                             <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">Develped a program for coffee purchases with billing functionality by C#.</p>
@@ -62,9 +62,9 @@ export default function Projects() {
                     </div>
 
                     <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow-sm dark:bg-gray-800 dark:border-gray-700">
-                        <a>
+                        {/* <a>
                             <img className="rounded-t-lg" src="#" alt="" />
-                        </a>
+                        </a> */}
                         <div className="p-5">
                             <a>
                                 <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Facebook Clone</h5>
@@ -80,9 +80,9 @@ export default function Projects() {
                     </div>
 
                     <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow-sm dark:bg-gray-800 dark:border-gray-700">
-                        <a>
+                        {/* <a>
                             <img className="rounded-t-lg" src="#" alt="" />
-                        </a>
+                        </a> */}
                         <div className="p-5">
                             <a>
                                 <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Quize Game</h5>
