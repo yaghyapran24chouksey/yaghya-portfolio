@@ -2,95 +2,81 @@ import React from 'react'
 
 export default function Projects() {
     return (
-        <div id='Projects' className='h-screen flex'>
-            <div className="mt-10 flex flex-cols flex-wrap items-center justify-around mx-auto p-15 text-gray-900 dark:text-white">
-                <h3 className="flex flex-cols text-4xl leading-none tracking-tight text-gray-800 md:text-4xl lg:text-5xl dark:text-white">Projects</h3>
-                <div className='flex gap-5 flex-wrap justify-center p-15'>
-                    <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow-sm dark:bg-gray-800 dark:border-gray-700">
-                        {/* <a href="#">
-                            <img className="rounded-t-lg item-center" src="" alt="" />
-                        </a> */}
+        <div id='Projects' className='w-full py-16 px-4 text-gray-900 dark:text-white'>
+            <div className="max-w-7xl mx-auto flex flex-col items-center justify-center">
+                <h3 className="text-3xl sm:text-4xl lg:text-5xl font-bold mb-12 text-center text-gray-800 dark:text-white">Projects</h3>
+
+                <div className='flex flex-col sm:flex-row sm:flex-wrap justify-center gap-6 w-full'>
+                    {/* Project Card 1 */}
+                    <div className="w-full sm:w-[45%] lg:w-[30%] bg-white border border-gray-200 rounded-lg shadow-sm dark:bg-gray-800 dark:border-gray-700">
                         <div className="p-5">
-                            <a>
-                                <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Digital Restaurant Menu Card</h5>
-                            </a>
-                            <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">Designed a digital menu card for restaurants were the customer can order the food by placing the order digitally, by using C language.</p>
-                            <a href="https://github.com/yaghyapran24chouksey/Restro-menu-card.git" className="mt-9 inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800" target="_blank">
+                            <h5 className="mb-2 text-xl font-bold tracking-tight text-gray-900 dark:text-white">Digital Restaurant Menu Card</h5>
+                            <p className="mb-4 text-gray-700 dark:text-gray-400">Designed a digital menu card for restaurants where customers can order food digitally using C language.</p>
+                            <a href="https://github.com/yaghyapran24chouksey/Restro-menu-card.git" target="_blank" rel="noopener noreferrer"
+                                className="inline-flex items-center px-3 py-2 text-sm font-medium text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
                                 Read more
-                                <svg className="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
-                                    <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M1 5h12m0 0L9 1m4 4L9 9" />
+                                <svg className="w-3.5 h-3.5 ml-2" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 14 10">
+                                    <path d="M1 5h12M9 1l4 4-4 4" />
                                 </svg>
                             </a>
                         </div>
                     </div>
 
-                    <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow-sm dark:bg-gray-800 dark:border-gray-700">
-                        {/* <a>
-                            <img className="rounded-t-lg" src="#" alt="" />
-                        </a> */}
+                    {/* Project Card 2 */}
+                    <div className="w-full sm:w-[45%] lg:w-[30%] bg-white border border-gray-200 rounded-lg shadow-sm dark:bg-gray-800 dark:border-gray-700">
                         <div className="p-5">
-                            <a>
-                                <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Deposit or withdraw funds</h5>
-                            </a>
-                            <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">Select deposit or withdrawal in your bank account; amount is credited or debited, and final balance is shown using C++.</p>
-                            <a href="https://github.com/yaghyapran24chouksey/Deposite-and-withdrawal-in-bank-account.git" className="mt-9 inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800" target="_blank">
+                            <h5 className="mb-2 text-xl font-bold tracking-tight text-gray-900 dark:text-white">Deposit or Withdraw Funds</h5>
+                            <p className="mb-4 text-gray-700 dark:text-gray-400">Bank deposit/withdrawal system with final balance display using C++.</p>
+                            <a href="https://github.com/yaghyapran24chouksey/Deposite-and-withdrawal-in-bank-account.git" target="_blank" rel="noopener noreferrer"
+                                className="inline-flex items-center px-3 py-2 text-sm font-medium text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
                                 Read more
-                                <svg className="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
-                                    <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M1 5h12m0 0L9 1m4 4L9 9" />
+                                <svg className="w-3.5 h-3.5 ml-2" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 14 10">
+                                    <path d="M1 5h12M9 1l4 4-4 4" />
                                 </svg>
                             </a>
                         </div>
                     </div>
 
-                    <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow-sm dark:bg-gray-800 dark:border-gray-700">
-                        {/* <a href="#">
-                            <img className="rounded-t-lg" src="#" alt="" />
-                        </a> */}
+                    {/* Project Card 3 */}
+                    <div className="w-full sm:w-[45%] lg:w-[30%] bg-white border border-gray-200 rounded-lg shadow-sm dark:bg-gray-800 dark:border-gray-700">
                         <div className="p-5">
-                            <a>
-                                <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Billing machine</h5>
-                            </a>
-                            <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">Develped a program for coffee purchases with billing functionality by C#.</p>
-                            <a href="https://github.com/yaghyapran24chouksey/Billing-machine.git" className="mt-14 inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800" target="_blank">
+                            <h5 className="mb-2 text-xl font-bold tracking-tight text-gray-900 dark:text-white">Billing Machine</h5>
+                            <p className="mb-4 text-gray-700 dark:text-gray-400">Developed a billing system for coffee purchases using C#.</p>
+                            <a href="https://github.com/yaghyapran24chouksey/Billing-machine.git" target="_blank" rel="noopener noreferrer"
+                                className="inline-flex items-center px-3 py-2 text-sm font-medium text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
                                 Read more
-                                <svg className="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
-                                    <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M1 5h12m0 0L9 1m4 4L9 9" />
+                                <svg className="w-3.5 h-3.5 ml-2" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 14 10">
+                                    <path d="M1 5h12M9 1l4 4-4 4" />
                                 </svg>
                             </a>
                         </div>
                     </div>
 
-                    <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow-sm dark:bg-gray-800 dark:border-gray-700">
-                        {/* <a>
-                            <img className="rounded-t-lg" src="#" alt="" />
-                        </a> */}
+                    {/* Project Card 4 */}
+                    <div className="w-full sm:w-[45%] lg:w-[30%] bg-white border border-gray-200 rounded-lg shadow-sm dark:bg-gray-800 dark:border-gray-700">
                         <div className="p-5">
-                            <a>
-                                <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Facebook Clone</h5>
-                            </a>
-                            <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">Clone of Facebook login and Signup Page by html,css and javascript.</p>
-                            <a href="https://github.com/yaghyapran24chouksey/Clone-of-facebook.git" className="mt-14 inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800" target="_blank">
+                            <h5 className="mb-2 text-xl font-bold tracking-tight text-gray-900 dark:text-white">Facebook Clone</h5>
+                            <p className="mb-4 text-gray-700 dark:text-gray-400">A basic Facebook login/signup clone using HTML, CSS, and JavaScript.</p>
+                            <a href="https://github.com/yaghyapran24chouksey/Clone-of-facebook.git" target="_blank" rel="noopener noreferrer"
+                                className="inline-flex items-center px-3 py-2 text-sm font-medium text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
                                 Read more
-                                <svg className="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
-                                    <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M1 5h12m0 0L9 1m4 4L9 9" />
+                                <svg className="w-3.5 h-3.5 ml-2" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 14 10">
+                                    <path d="M1 5h12M9 1l4 4-4 4" />
                                 </svg>
                             </a>
                         </div>
                     </div>
 
-                    <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow-sm dark:bg-gray-800 dark:border-gray-700">
-                        {/* <a>
-                            <img className="rounded-t-lg" src="#" alt="" />
-                        </a> */}
+                    {/* Project Card 5 */}
+                    <div className="w-full sm:w-[45%] lg:w-[30%] bg-white border border-gray-200 rounded-lg shadow-sm dark:bg-gray-800 dark:border-gray-700">
                         <div className="p-5">
-                            <a>
-                                <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Quize Game</h5>
-                            </a>
-                            <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">Develop a Quize game where user need to gave the answer of the question asked in an given time by using html,css,js and bootstrap.</p>
-                            <a href="https://github.com/yaghyapran24chouksey/Quize-game.git" className="mt-7 inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800" target="_blank">
+                            <h5 className="mb-2 text-xl font-bold tracking-tight text-gray-900 dark:text-white">Quiz Game</h5>
+                            <p className="mb-4 text-gray-700 dark:text-gray-400">A timed quiz game built with HTML, CSS, JavaScript, and Bootstrap.</p>
+                            <a href="https://github.com/yaghyapran24chouksey/Quize-game.git" target="_blank" rel="noopener noreferrer"
+                                className="inline-flex items-center px-3 py-2 text-sm font-medium text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
                                 Read more
-                                <svg className="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
-                                    <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M1 5h12m0 0L9 1m4 4L9 9" />
+                                <svg className="w-3.5 h-3.5 ml-2" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 14 10">
+                                    <path d="M1 5h12M9 1l4 4-4 4" />
                                 </svg>
                             </a>
                         </div>
