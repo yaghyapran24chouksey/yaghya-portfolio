@@ -7,6 +7,8 @@ import Home from './Components/Home/Home'
 import Navbar from './Components/Navbar/Navbar'
 import Projects from './Components/Projects/Projects'
 import Skills from './Components/Skills/Skills'
+import Experience from './Components/Experience/experience'
+import Whatsapp from './Components/Whatsapp/whatsappbtn'
 
 function App() {
 
@@ -18,8 +20,10 @@ function App() {
       <Education />
       <Skills />
       <Projects />
+      <Experience />
       <Contact />
       <Footer />
+      <Whatsapp />
     </>
   )
 }
