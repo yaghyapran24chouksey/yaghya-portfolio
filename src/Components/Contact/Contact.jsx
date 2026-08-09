@@ -202,7 +202,7 @@ export default function Contact() {
                 {/* Resume Download */}
                 <div className="mt-8">
                   <a
-                    href="Yaghya_updated_resume.pdf"
+                    href="Yaghyapran_chouksey_Resume.pdf"
                     download
                     className="w-full inline-flex items-center justify-center px-6 py-3 text-base font-medium text-white bg-gradient-to-r from-blue-600 to-sky-600 rounded-lg hover:from-blue-700 hover:to-sky-700 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 transition-all transform hover:scale-105"
                   >
