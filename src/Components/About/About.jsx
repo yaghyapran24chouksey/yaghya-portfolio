@@ -71,7 +71,7 @@ export default function About() {
 
             {/* Resume Button */}
             <a
-              href="Yaghya_updated_resume.pdf"
+              href="Yaghyapran_chouksey_Resume.pdf"
               className="inline-flex items-center px-6 py-3 text-base font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800 transition-all hover:scale-105"
               target="_blank"
               rel="noopener noreferrer"
